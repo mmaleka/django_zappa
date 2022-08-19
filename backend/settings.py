@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'users',
     'subscription',
     'analytics',
+    'django_s3_sqlite',
 ]
 
 MIDDLEWARE = [

@@ -5,6 +5,7 @@
         "project_name": "backend",
         "runtime": "python3.7",
         "s3_bucket": "zappa-tdn3wb2vu",
-        "aws_region": "us-west-2"
+        "aws_region": "us-west-2",
+        "use_precompiled_packages": false
     }
 }
