@@ -133,8 +133,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-AWS_ACCESS_KEY_ID = 'AKIASYNZ5KRR7XB3L4V2'
-AWS_SECRET_ACCESS_KEY = '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'
+# AWS_ACCESS_KEY_ID = 'AKIASYNZ5KRR7XB3L4V2'
+# AWS_SECRET_ACCESS_KEY = '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'
 AWS_STORAGE_BUCKET_NAME = 'try-coding-media'
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 AWS_S3_OBJECT_PARAMETERS = {
@@ -176,4 +176,5 @@ REST_AUTH_SERIALIZERS = {
 
 # git remote add origin https://github.com/mmaleka/django_zappa.git
 # git branch -M main
+# git commit -m "first commit"
 # git push -u origin main
